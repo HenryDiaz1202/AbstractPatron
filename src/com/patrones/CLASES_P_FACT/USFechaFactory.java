@@ -1,4 +1,4 @@
-package com.patrones.CLASES;
+package com.patrones.CLASES_P_FACT;
 
 public class USFechaFactory implements FechaFactory {
 

@@ -1,4 +1,4 @@
-package com.patrones.CLASES;
+package com.patrones.CLASES_P_FACT;
 
 import java.text.DateFormat;
 import java.util.Date;
