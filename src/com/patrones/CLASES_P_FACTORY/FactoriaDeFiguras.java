@@ -7,7 +7,7 @@ public class FactoriaDeFiguras {
 
     public Figuras getFigura(int tipo, int lado) {
         if (tipo == CUADRADO){
-            return (new Cuadrado(4));
+            return (new Cuadrado(lado));
         }
         else{
             return (new Circulo(lado));
