@@ -1,6 +1,6 @@
 package com.patrones;
 
-import com.patrones.CLASES_P_FACT.*;
+import com.patrones.CLASES_P_FB_ABSTRACTA.*;
 
 import java.io.BufferedReader;
 import java.io.*;
