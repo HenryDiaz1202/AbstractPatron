@@ -43,6 +43,6 @@ Y la clase llamada PruebaFactoria.java, se encargar de diseñar la interfaz que 
 Aquí se aplica lo que es el singletón, hacemos la instancia.
 
 
-![](images\APLSINGLE.png)
+![](Images/APLSINGLE.jpg)
 
 Lo siguiente es para conectar con base de datos POSTGRESQL, podemos descargar el POSTGRESQl, también podemos descargar por externo el jdbc para realizar la conexión.
