@@ -7,11 +7,13 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 public class Conexion {
+
 
     private static Conexion connectInstance;
     private Connection connection;
-    private final String URL = "jdbc:postgresql://localhost:5433/singletonDB";
+    private final String URL = "jdbc:postgresql://localhost:5432/singletonDB";
     private final String USER = "root";
     private final String PASSWORD = "holamundo";
 
