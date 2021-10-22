@@ -1,8 +1,10 @@
 package com.patrones.CLASES_P_SINGLETON.SQL_SINGLETON;
 
+
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -10,11 +12,10 @@ import java.util.logging.Logger;
 
 public class Conexion {
 
-
     private static Conexion connectInstance;
     private Connection connection;
-    private final String URL = "jdbc:postgresql://localhost:5432/singletonDB";
-    private final String USER = "root";
+    private final String URL = "jdbc:postgresql://localhost:5433/singletonDB";
+    private final String USER = "postgres";
     private final String PASSWORD = "holamundo";
 
     private Conexion(){
